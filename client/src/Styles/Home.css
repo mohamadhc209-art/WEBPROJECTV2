@@ -1,0 +1,92 @@
+/* ===== HERO SECTION ===== */
+.home-hero {
+  text-align: center;
+  padding: 120px 20px 80px;
+}
+
+.home-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.home-subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.shop-btn {
+  background: #004AAD; /* BLUE */
+  color: white;
+  padding: 12px 32px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.shop-btn:hover {
+  background: #003A8A; /* DARKER BLUE */
+  transform: scale(1.05);
+}
+
+
+/* ===== SECTIONS (Concept / Mission / Vision) ===== */
+.section-box {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 35px;
+  background: white;
+  border-radius: 12px;
+
+  /* shadow */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+
+  /* professional BLUE border-left */
+  border-left: 6px solid #004AAD;
+
+  transition: 0.3s ease;
+}
+
+.section-box:hover {
+  transform: translateY(-3px);
+}
+
+/* Titles */
+.section-box h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #004AAD; /* BLUE TITLE */
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+.section-box p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 32px;
+  }
+
+  .home-subtitle {
+    font-size: 18px;
+  }
+
+  .section-box {
+    margin: 25px 15px;
+    padding: 25px;
+  }
+
+  .section-box h2 {
+    font-size: 24px;
+  }
+}
