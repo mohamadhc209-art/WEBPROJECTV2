@@ -1,0 +1,71 @@
+.checkout-container {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid #0a66c2; /* light blue border like your project */
+  font-family: Arial, sans-serif;
+}
+
+.checkout-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0a66c2;
+  font-size: 26px;
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+.checkout-form input,
+.checkout-form select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 2px solid #0a66c2;
+  outline: none;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.checkout-form input:focus,
+.checkout-form select:focus {
+  border-color: #084a90;
+}
+
+.confirm-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: #0a66c2;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.confirm-btn:hover {
+  background: #084a90;
+}
+
+.total-box {
+  margin-top: 15px;
+  padding: 12px;
+  background: #f5f9ff;
+  border: 2px solid #0a66c2;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #084a90;
+  text-align: center;
+}
